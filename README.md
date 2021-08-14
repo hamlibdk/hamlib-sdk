@@ -46,7 +46,7 @@ built under Qt's [MinGW][] 7.3 and [MinGW][] 8.1 environs are available (saving 
 The recommended mainstream development environments are [Qt][] 5.15.2 and [Boost-1.74.0][] working with [MinGW][] 8.1.
 ************************************************************************************ 
 
-** Note that [WSJT-X 2.3.0][] and [WSJT-X 2.4.0 rc2][] will compile but not package to [Boost-1.75.0][] **
+** Note that [WSJT-X 2.4.0][] and [WSJT-X 2.5.0 rc5][] will compile but not package to [Boost-1.75.0][] **
 
 ### The Next Steps
 
@@ -152,7 +152,7 @@ are designed to be deployed to existing "Base" packages.
 *These steps assume that you have a deployed base environment*
 
 - Download any "Tools" packages from https://sourceforge.net/projects/hamlib-sdk/files/Windows/JTSDK-3.2-Stream/ 
-i.e. Current version: [JTSDK64-Tools-3.2.0.2][]
+i.e. Current version: [JTSDK64-Tools-3.2.0.5][]
 - Deploy the tools package to your JTSDK install directory.
 
 Updates may apply to the MSYS2 environment. Therefore the "profile" directory for 
@@ -198,7 +198,7 @@ These Virtual machines should have a lifetime of at least 30 days.
 ** Note that these instructions assumes a fresh Windows 10 Virtual Machine is used **
 
 - Deploy the installer [JTSDK64-Base-3.2.0][] inside a FRESH VM.
-- Deploy any "Tools" Packages ( currently [JTSDK64-Tools-3.2.0.2][] ) to your Base Dep,oyment.
+- Deploy any "Tools" Packages ( currently [JTSDK64-Tools-3.2.0.5][] ) to your Base Deployment.
 
 It is recommended to use all the initial default settings and file locations.
  
@@ -405,7 +405,7 @@ A Windows symbolic link will work too: i.e.: Assume that both the 1.74.0-7.3 and
  
 The preference is to build your own Boost package and NOT use these ! ** Warning: Boost does not build 100% properly and to full capability under MinGW/MSYS2 environments that we use – yet its good enough for our purposes !**
 ************************************************************************************
-A script **Reset-Boost.ps1** is available in the [Tests][] folder (and from [Tools 3.2.0.3][JTSDK64-Tools-3.2.0.3] onwards) to reset any failed attempts at building Boost.
+A script **Reset-Boost.ps1** is available to reset any failed attempts at building Boost.
 ************************************************************************************
 
 #### Step 3d: Environments should now be complete for building JT- software
@@ -490,11 +490,11 @@ Base ref: https://sourceforge.net/projects/jtsdk/files/win64/3.1.0/README.md
 [JTSDK Forum]: https://groups.io/g/JTSDK/messages
 [JTSDK64-Tools-3.1.0]: https://sourceforge.net/projects/jtsdk/files/win64/3.1.0/jtsdk64-tools-3.1.0.exe
 [JTSDK64-Apps-3.1.0.2]: https://sourceforge.net/projects/jtsdk/files/win64/3.1.0/jtsdk64-apps-3.1.0.2.exe
-[JTSDK64-Tools-3.1.1.2]:https://sourceforge.net/projects/hamlib-sdk/files/Windows/JTSDK-3.1.1-x64-Stream/JTSDK64-Tools-3.1.1.2.exe
-[JTSDK64-Apps-3.1.1]: https://sourceforge.net/projects/hamlib-sdk/files/Windows/JTSDK-3.1.1-x64-Stream/JTSDK64-Apps-3.1.1.exe
+[JTSDK64-Tools-3.1.1.4]:https://sourceforge.net/projects/hamlib-sdk/files/Windows/JTSDK-3.1-Stream/JTSDK64-Tools-3.1.1.4.exe
+[JTSDK64-Apps-3.1.1]: https://sourceforge.net/projects/hamlib-sdk/files/Windows/JTSDK-3.1-Stream/JTSDK64-Apps-3.1.1.exe
 [JTSDK64-Base-3.2.0]: https://sourceforge.net/projects/hamlib-sdk/files/Windows/JTSDK-3.2-Stream/JTSDK64-Base-3.2.0.exe
 [JTSDK64-Tools-3.2.0.1]: https://sourceforge.net/projects/hamlib-sdk/files/Windows/JTSDK-3.2-Stream/JTSDK64-Tools-3.2.0.1.exe
-[JTSDK64-Tools-3.2.0.2]: https://sourceforge.net/projects/hamlib-sdk/files/Windows/JTSDK-3.2-Stream/JTSDK64-Tools-3.2.0.2.exe
+[JTSDK64-Tools-3.2.0.5]: https://sourceforge.net/projects/hamlib-sdk/files/Windows/JTSDK-3.2-Stream/JTSDK64-Tools-3.2.0.5.exe
 [JTSDK64-Tools-3.2.0.3]: https://sourceforge.net/projects/hamlib-sdk/files/Windows/JTSDK-3.2-Stream/JTSDK64-Tools-3.2.0.3.exe
 [Git]: https://git-scm.com/
 [VS Code]: https://code.visualstudio.com/Download
