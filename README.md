@@ -42,7 +42,6 @@ Current packaging preempts known cases of proposed licence and delivery conditio
 Precompiled drop-in packages for [Boost-1.74.0][], [Boost-1.75.0][] and [Boost-1.76.0][] 
 built under Qt's [MinGW][] 7.3 and [MinGW][] 8.1 environs are available (saving 3+ hours). 
 ************************************************************************************
-************************************************************************************
 The recommended mainstream development environments are [Qt][] 5.15.2 and [Boost-1.74.0][] working with [MinGW][] 8.1.
 ************************************************************************************ 
 
@@ -493,9 +492,7 @@ Base ref: https://sourceforge.net/projects/jtsdk/files/win64/3.1.0/README.md
 [JTSDK64-Tools-3.1.1.4]:https://sourceforge.net/projects/hamlib-sdk/files/Windows/JTSDK-3.1-Stream/JTSDK64-Tools-3.1.1.4.exe
 [JTSDK64-Apps-3.1.1]: https://sourceforge.net/projects/hamlib-sdk/files/Windows/JTSDK-3.1-Stream/JTSDK64-Apps-3.1.1.exe
 [JTSDK64-Base-3.2.0]: https://sourceforge.net/projects/hamlib-sdk/files/Windows/JTSDK-3.2-Stream/JTSDK64-Base-3.2.0.exe
-[JTSDK64-Tools-3.2.0.1]: https://sourceforge.net/projects/hamlib-sdk/files/Windows/JTSDK-3.2-Stream/JTSDK64-Tools-3.2.0.1.exe
 [JTSDK64-Tools-3.2.0.5]: https://sourceforge.net/projects/hamlib-sdk/files/Windows/JTSDK-3.2-Stream/JTSDK64-Tools-3.2.0.5.exe
-[JTSDK64-Tools-3.2.0.3]: https://sourceforge.net/projects/hamlib-sdk/files/Windows/JTSDK-3.2-Stream/JTSDK64-Tools-3.2.0.3.exe
 [Git]: https://git-scm.com/
 [VS Code]: https://code.visualstudio.com/Download
 [Issue Tracker]: https://sourceforge.net/p/hamlib-sdk/tickets/
@@ -509,9 +506,8 @@ Base ref: https://sourceforge.net/projects/jtsdk/files/win64/3.1.0/README.md
 [Tests]: https://sourceforge.net/projects/hamlib-sdk/files/Windows/JTSDK-3.2-Stream/Tests/
 [WSJT-X 2.2.2]:https://physics.princeton.edu/pulsar/k1jt/wsjtx-2.2.2.tgz
 [WSJT-X 2.3.0]: http://physics.princeton.edu/pulsar/K1JT/wsjtx-2.3.0.tgz 
-[WSJT-X 2.4.0 rc2]: https://physics.princeton.edu/pulsar/k1jt/wsjtx-2.4.0-rc2.tgz
-[JTSDK-Tools-3.1.1.3b2.exe]: https://sourceforge.net/projects/hamlib-sdk/files/Windows/JTSDK-3.1.1-x64-Stream/Deprecated/JTSDK64-Tools-3.1.1.3b2.exe
-[JTSDK64-All-3.2.0a7.exe]: https://sourceforge.net/projects/hamlib-sdk/files/Windows/JTSDK-3.2-Stream/Archive/JTSDK64-All-3.2.0a7.exe
+[WSJT-X 2.4.0]: https://physics.princeton.edu/pulsar/k1jt/wsjtx-2.4.0.tgz
+[WSJT-X 2.5.0 rc5][]: https://physics.princeton.edu/pulsar/k1jt/wsjtx-2.5.0-rc5.tgz
 [Archive]: https://sourceforge.net/projects/hamlib-sdk/files/Windows/JTSDK-3.2-Stream/Archive/
 [Fl-Apps]: https://sourceforge.net/projects/fldigi/files/
 [DotNET SDK]: https://dotnet.microsoft.com/download
