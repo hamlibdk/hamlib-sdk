@@ -22,7 +22,7 @@ completely removes needs for capable third-party environments such as [Python][]
 The **Version 3.2** stream is a learning, discovery and technique refinement experiment.
 This README.md file will transition towards deployment instructions. 
 ************************************************************************************
-**Urgent Note**
+### **Urgent Note**
 
 The **Build-Boost.ps1** script will not download the selected Boost package from the 
 Boost maintainer's ISP due to an addware layer being added at their ISP's end. Either use 
