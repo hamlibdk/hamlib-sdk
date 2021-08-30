@@ -390,7 +390,7 @@ In JTSDK64-Tools:
 Around 90 minutes later you should now have a deployment of Boost based at the recommended v1.74.0 (configurable in **C:\JTSDK64-Tools\config\Versions.ini**) that is suitable to build JT-software under your selected Qt version on your machine.
 
 ************************************************************************************
-Pre-compiled drop-in Packages for [Boost-1.74.0][], [Boost-1.75.0][] and [Boost-1.76.0] are available at the time of writing.
+Pre-compiled drop-in Packages for [Boost-1.74.0][] and [Boost-1.77.0] are available at the time of writing.
 
 Each “drop-in” package has folders i.e. 1.74.0-7.3 for [MinGW][] 7.3 (pre-Qt 5.15) and 1.74.0-8.1 (for post-Qt 5.15 including the 6.x.x streams). 
  
@@ -526,14 +526,9 @@ Some tools and libraries are just not implemented by the Qt maintainers i.e. <sy
 You can download the latest [MSYS2][] installer at https://www.msys2.org/ 
 
 ************************************************************************************
-The only way that this and some other tools can be built is with a seperate [MSYS2][] deployment including base compilers outside of this kit !
+The only way that this and some other tools can be built at this time is with a seperate [MSYS2][] deployment including base compilers outside of this kit !
 
-Install the MinGW 32bit and/or MinGW 64bit toolchains with:
-
-```
-$ pacman -S mingw-w64-x86_64-toolchain		<== For 64-bit/x64 support
-$ pacman -S mingw-w64-i686-toolchain		<== For 32-bit/x86 support
-```
+A guide for building PortAudio can be found at https://sourceforge.net/projects/hamlib-sdk/files/Windows/JTSDK-3.2-Stream/Guide%20for%20building%20PortAudio.pdf
 ************************************************************************************
 
 [PortAudio][] can be build with ALSA toolkits. There are legalities associated with this. 
