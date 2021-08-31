@@ -150,7 +150,7 @@ are designed to be deployed to existing "Base" packages.
 *These steps assume that you have a deployed base environment*
 
 - Download any "Tools" packages from https://sourceforge.net/projects/hamlib-sdk/files/Windows/JTSDK-3.2-Stream/ 
-i.e. Current version: [JTSDK64-Tools-3.2.0.6][]
+i.e. Current version: [JTSDK64-Tools-3.2.0.7][]
 - Deploy the tools package to your JTSDK install directory.
 
 Updates may apply to the MSYS2 environment. Therefore the "profile" directory for 
@@ -196,7 +196,7 @@ These Virtual machines should have a lifetime of at least 30 days.
 ** Note that these instructions assumes a fresh Windows 10 Virtual Machine is used **
 
 - Deploy the installer [JTSDK64-Base-3.2.0][] inside a FRESH VM.
-- Deploy any "Tools" Packages ( currently [JTSDK64-Tools-3.2.0.6][] ) to your Base Deployment.
+- Deploy any "Tools" Packages ( currently [JTSDK64-Tools-3.2.0.7][] ) to your Base Deployment.
 
 It is recommended to use all the initial default settings and file locations.
  
@@ -447,7 +447,7 @@ export PATH="$GCCD_F:$QTD_F:$QTP_F:$LIBUSBINC:$LIBUSBD:$PATH"
 
 While your MSYS2 environment is open this will make the Qt-suplied compilers available. 
 
-Tools packages post [JTSDK64-Tools-3.2.0.6][] will contain MSYS2 menu options for this.
+Tools packages post [JTSDK64-Tools-3.2.0.7][] will contain MSYS2 menu options for this.
 
 ************************************************************************************
 **Note:** Often other tools will need to be added to MSYS2. Ensure that whatever tool is added **does not download and deploy the native MINGW compiler sets **.
@@ -607,7 +607,7 @@ Base ref: https://sourceforge.net/projects/jtsdk/files/win64/3.1.0/README.md
 [JTSDK64-Tools-3.1.1.4]:https://sourceforge.net/projects/hamlib-sdk/files/Windows/JTSDK-3.1-Stream/JTSDK64-Tools-3.1.1.4.exe
 [JTSDK64-Apps-3.1.1]: https://sourceforge.net/projects/hamlib-sdk/files/Windows/JTSDK-3.1-Stream/JTSDK64-Apps-3.1.1.exe
 [JTSDK64-Base-3.2.0]: https://sourceforge.net/projects/hamlib-sdk/files/Windows/JTSDK-3.2-Stream/JTSDK64-Base-3.2.0.exe
-[JTSDK64-Tools-3.2.0.6]: https://sourceforge.net/projects/hamlib-sdk/files/Windows/JTSDK-3.2-Stream/JTSDK64-Tools-3.2.0.6.exe
+[JTSDK64-Tools-3.2.0.7]: https://sourceforge.net/projects/hamlib-sdk/files/Windows/JTSDK-3.2-Stream/JTSDK64-Tools-3.2.0.7.exe
 [Git]: https://git-scm.com/
 [VS Code]: https://code.visualstudio.com/Download
 [Issue Tracker]: https://sourceforge.net/p/hamlib-sdk/tickets/
